@@ -197,10 +197,10 @@ const BoardGame: React.FC<IForm> = ({ form, start, gameId }) => {
   };
 
   return (
-    <div className="p-6 flex flex-col items-center justify-center min-h-[80vh] bg-gray-100 rounded-2xl shadow-inner">
+    <div className="p-6 flex flex-col items-center justify-center min-h-full bg-gray-100 rounded-2xl shadow-inner">
       {start === false ? (
         <div className="bg-white border-l-4 border-blue-500 rounded-xl p-6 shadow-md">
-          <h2 className="text-2xl font-bold text-blue-700">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-700">
             เริ่มเกมใหม่เพื่อเล่น
           </h2>
         </div>

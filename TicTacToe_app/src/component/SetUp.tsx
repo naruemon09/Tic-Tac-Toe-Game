@@ -60,7 +60,7 @@ const SetUp: React.FC <ISetUpProps> = ({form, setForm, boardSize, gameMode, star
         ตั้งค่าเกมก่อนเริ่มเล่น
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10">
         <div className="text-center">
           <h1 className="font-semibold text-gray-700 mb-2">ขนาดตาราง :</h1>
           <select

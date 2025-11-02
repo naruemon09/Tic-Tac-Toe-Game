@@ -36,7 +36,7 @@ const History: React.FC<IReplay> = ({ setReplay, setGameId }) => {
 
   return (
     <div className="p-4 flex flex-col">
-      <h2 className="flex justify-center items-center gap-2 text-2xl font-bold mb-6 text-gray-700 tracking-wide">
+      <h2 className="flex justify-center items-center gap-2 text-2xl md:text-xl font-bold mb-6 text-gray-700 tracking-wide">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
