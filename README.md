@@ -15,6 +15,9 @@ A **full-stack Tic Tac Toe game** with 3 AI difficulty levels and game history s
 - **Database:** MySQL  
 
 ## ⚙️ Installation
+```bash
+git clone https://github.com/naruemon09/Tic-Tac-Toe-Game.git
+```
 ### Backend (Spring Boot)
 ```bash
 cd TicTacToe_api
