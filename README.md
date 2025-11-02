@@ -1,4 +1,4 @@
-# 🎮 Tic Tac Toe Game – React TypeScript & Java Spring Boot
+# 🎮 Tic Tac Toe Game
 
 A **full-stack Tic Tac Toe game** with 3 AI difficulty levels and game history stored in a MySQL database.
 
