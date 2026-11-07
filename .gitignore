@@ -1,0 +1,15 @@
+# environment variables (keep secrets out of git)
+.env
+.env.*
+!.env.example
+
+# dependencies & build output (also covered by each sub-project's .gitignore)
+node_modules/
+dist/
+target/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
